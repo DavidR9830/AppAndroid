@@ -12,5 +12,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"/>
+    <Button
+        android:id="@+id/alarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear alarma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomar foto"
+        android:layout_below="@id/alarmButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/correoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar correo"
+        android:layout_below="@id/cameraButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

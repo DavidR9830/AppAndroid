@@ -3,5 +3,8 @@
     <string name="name">Name</string>
     <string name="register_button">Register</string>
     <string name="login_button">Login</string>
+    <string name="alarm_button">Alarm</string>
+    <string name="camera_button">Camera</string>
+    <string name="correo_button">Correo</string>
     <string name="welcome_message">Welcome, %s!</string>
 </resources>
