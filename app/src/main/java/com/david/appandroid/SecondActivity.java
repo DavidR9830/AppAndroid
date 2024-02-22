@@ -21,6 +21,8 @@ public class SecondActivity extends AppCompatActivity {
 
     private Button cameraButton;
 
+    private TextView statusTextView;
+
     private Button correoButton;
 
     @Override
@@ -44,7 +46,7 @@ public class SecondActivity extends AppCompatActivity {
         alarmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createAlarm("Champions moment", 15,0);
+                createAlarm("Champions moment", 17,0);
             }
         });
 
@@ -91,5 +93,6 @@ public class SecondActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
 
 }

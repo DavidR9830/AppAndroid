@@ -2,7 +2,8 @@
     <string name="username">Username</string>
     <string name="name">Name</string>
     <string name="register_button">Register</string>
-    <string name="login_button">Login</string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
     <string name="alarm_button">Alarm</string>
     <string name="camera_button">Camera</string>
     <string name="correo_button">Correo</string>
